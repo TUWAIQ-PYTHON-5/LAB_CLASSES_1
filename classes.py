@@ -1,7 +1,7 @@
 class Panda:
     kind = "animals"
 
-    def __int__(self, gender:str, size:int, height:int):
+    def __init__(self, gender:str, size:int, height:int):
         self.gender = gender
         self.size = size
         self.height = height
@@ -18,5 +18,9 @@ panda3 = Panda("Male", 140, 170)
 panda4 = Panda("Female", 130, 155)
 
 
-print("the kind of Panda:",Panda.kind)
+print("the gender of Panda is :",panda1.gender)
+
+print(panda4.kind)
+
+
 
